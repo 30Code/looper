@@ -1,8 +1,8 @@
-package com.fanwe.lib.looper.impl;
+package cn.linhome.lib.looper.impl;
 
 import android.os.Looper;
 
-import com.fanwe.lib.looper.FTimeouter;
+import cn.linhome.lib.looper.FTimeouter;
 
 public class FSimpleTimeoutLooper extends FSimpleLooper implements FTimeouter
 {

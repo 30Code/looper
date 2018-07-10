@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fanwe.lib.looper.impl;
+package cn.linhome.lib.looper.impl;
 
-import com.fanwe.lib.looper.FTimeouter;
+import cn.linhome.lib.looper.FTimeouter;
 
 public class FSimpleTimeouter implements FTimeouter
 {
