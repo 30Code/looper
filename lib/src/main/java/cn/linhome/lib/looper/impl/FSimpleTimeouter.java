@@ -15,9 +15,9 @@
  */
 package cn.linhome.lib.looper.impl;
 
-import cn.linhome.lib.looper.FTimeouter;
+import cn.linhome.lib.looper.Timeouter;
 
-public class FSimpleTimeouter implements FTimeouter
+public class FSimpleTimeouter implements Timeouter
 {
     /**
      * 超时时间，默认10秒

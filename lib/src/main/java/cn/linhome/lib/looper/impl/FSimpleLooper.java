@@ -16,12 +16,11 @@
 package cn.linhome.lib.looper.impl;
 
 import android.os.Handler;
-import android.os.Looper;
 import android.os.Message;
 
-import cn.linhome.lib.looper.FLooper;
+import cn.linhome.lib.looper.Looper;
 
-public class FSimpleLooper implements FLooper
+public class FSimpleLooper implements Looper
 {
     private static final int MSG_WHAT = 1990;
 
@@ -35,10 +34,10 @@ public class FSimpleLooper implements FLooper
 
     public FSimpleLooper()
     {
-        this(Looper.getMainLooper());
+        this(android.os.Looper.getMainLooper());
     }
 
-    public FSimpleLooper(Looper looper)
+    public FSimpleLooper(android.os.Looper looper)
     {
         mHandler = new Handler(looper)
         {
